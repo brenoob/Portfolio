@@ -1,0 +1,25 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_home > h1 {
+    font-size: 4.5rem;
+}
+.container_home > p {
+    font-size: 1.5rem;
+}
+
+.img_bg_one {
+    width: clamp(600px, 50vw, 932px);
+    height: 643px;
+    background-position: right center;
+}
+
+.container_home {
+    padding: 0 10vw;
+    color: var(--primary-color);
+}
