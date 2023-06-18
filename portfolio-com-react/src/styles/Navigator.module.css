@@ -25,7 +25,7 @@ a {
     gap: 10px;
 }
 
-a, .ul_nav {
+.a_logo, .ul_nav {
     margin: 0 80px;
     white-space: nowrap;
 }
@@ -50,4 +50,9 @@ li:hover {
     align-items: center;
     flex-direction: row;
     list-style-type: none;
+}
+@media (max-width: 958px) {
+    .ul_nav {
+        display: none;
+    }
 }

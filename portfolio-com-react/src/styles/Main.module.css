@@ -20,6 +20,40 @@
 }
 
 .container_home {
+    text-align: start;
     padding: 0 10vw;
     color: var(--primary-color);
 }
+._skills_8c534_55 {
+display: flex;
+justify-content: center;
+}
+.skills{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+.skills img {
+    width: 82px;
+    height: 82px;
+}
+
+.btns_home {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 1046px) {
+    .img_bg_one{
+      display: none;
+    }
+    .container_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }

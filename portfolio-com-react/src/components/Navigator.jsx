@@ -10,6 +10,7 @@ function Navigator() {
             href="http://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.a_logo}
           >
             <img src={reactsvg} alt="imagem logo" className="imglogo" />
             <p>Brenekat Web Developer</p>
